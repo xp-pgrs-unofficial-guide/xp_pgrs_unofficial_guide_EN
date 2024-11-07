@@ -469,7 +469,15 @@
   \newcommand\tabref[1]{\textbf{Table}~\ref{#1}}
   \renewcommand{\chaptername}{Chapter}
   \renewcommand{\partname}{\color{structurecolor} Part}
-  \newcommand{\authorname}{\textbf{Author: }}
+  \newcommand{\authorname}{\textbf{Editors (since the founder): }}
+
+    % Author abbr.
+    \newcommand{\SZ}{\href{mailto:shiyao.zhang14@student.xjtlu.edu.cn}{Shiyao Zhang}}
+    \newcommand{\Shiyao}{\href{mailto:shiyao.zhang14@student.xjtlu.edu.cn}{Shiyao}}
+    
+    \newcommand{\KW}{\href{mailto:kaiwu.astro@gmail.com}{Kai Wu}}
+    \newcommand{\Wu}{\href{mailto:kaiwu.astro@gmail.com}{Kai}}
+
   \newcommand{\institutename}{\textbf{Institute: }}
   \newcommand{\datename}{\textbf{Date: }}
   \newcommand{\versionname}{\textbf{Version: }}

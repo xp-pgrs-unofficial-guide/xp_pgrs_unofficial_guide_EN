@@ -1,24 +1,24 @@
-\documentclass[lang=cn,12pt,newtx]{elegantbook}
+\documentclass[lang=en,12pt,newtx]{elegantbook}
 
-\title{西浦博士生非官方攻略}
-% \subtitle{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~版本 v1.1.0}
+\title{XJTLU PGRS Unofficial Guide}
+% \subtitle{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~version v1.1.0}
 
-\author{\KW，\SZ}
+\author{\KW, \SZ}
 % \institute{}
 \date{\today}
 \version{v1.1.0}
-\bioinfo{地址}{\href{https://github.com/xp-pgrs-unofficial-guide/xp_pgrs_unofficial_guide/releases}{GitHub（最新版）}或 \space \href{https://xjtlums.sharepoint.com/:u:/s/PGRSUnofficialGuide/ESNKWXoSeJtOpLoqpQXH0UsBWhQnD2SQoFVJx11oR9fV6A?e=x1dAOA}{SharePoint（备份，西浦邮箱登陆）}}
+\bioinfo{Repository}{\href{https://github.com/xp-pgrs-unofficial-guide/xp_pgrs_unofficial_guide/releases}{GitHub (latest)} or \space \href{https://xjtlums.sharepoint.com/:u:/s/PGRSUnofficialGuide/ESNKWXoSeJtOpLoqpQXH0UsBWhQnD2SQoFVJx11oR9fV6A?e=x1dAOA}{SharePoint (backup, XJTLU account required)}}
 
-% \bioinfo{自定义}{信息}
+% \bioinfo{customize}{info}
 
-\extrainfo{前人栽树，后人乘凉~~\&~~吃水不忘挖井人} 
+\extrainfo{Standing on the shoulders of giants} 
 
 \setcounter{tocdepth}{3}
 
 % \logo{logo-blue.png} 
 \cover{cover3.jpg}
 
-% 本文档命令
+% commands
 \usepackage{array}
 \usepackage{float}
 \usepackage{ulem}
@@ -39,7 +39,7 @@
         \setlength{\parindent}{2\ccwd}
     }
 
-% 修改标题页的橙色带
+% define color in the cover page
 \definecolor{customcolor}{RGB}{3,31,115}
 \colorlet{coverlinecolor}{customcolor}
 \usepackage{cprotect}
@@ -49,27 +49,33 @@
 \maketitle
 \frontmatter
 
-\include{chapters/preface}
+% Below preface needs to be modified into English
+% \include{chapters/preface}
 \tableofcontents
 \mainmatter
+
 %======================================================================
-% 正文内容
-% \pagestyle{fancy}
-% \setcounter{page}{0}
-\include{chapters/necessary_resources}
-\include{chapters/must-do}
-\include{chapters/fuli}
-\include{chapters/better-know}
-\include{chapters/others}
-\include{chapters/bikeng}
-% \include{chapters/non-xjtluer}
-% \include{chapters/pgrsociety}
-\include{chapters/author-instruction}
-\include{chapters/appendix}
+% contents
+% % \pagestyle{fancy}
+% % \setcounter{page}{0}
+
+% Below chapters needs to be modified into English
+
+% \include{chapters/necessary_resources}
+% \include{chapters/must-do}
+% \include{chapters/fuli}
+% \include{chapters/better-know}
+% \include{chapters/others}
+% \include{chapters/bikeng}
+% % \include{chapters/non-xjtluer}
+% % \include{chapters/pgrsociety}
+% \include{chapters/author-instruction}
+% \include{chapters/appendix}
+
 %======================================================================
 \backmatter	
-\include{chapters/acknowledgement}
-\include{chapters/update_log}
+% \include{chapters/acknowledgement}
+% \include{chapters/update_log}
 
 
 \makeatletter
