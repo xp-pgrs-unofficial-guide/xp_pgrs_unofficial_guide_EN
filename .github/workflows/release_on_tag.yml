@@ -1,0 +1,33 @@
+name: release_on_tag
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: compile
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: "xp_pgrs_unofficial_guide.tex"
+          latexmk_use_xelatex: true
+      - name: Get tag
+        id: tag
+        uses: dawidd6/action-get-tag@v1
+        with:
+          # Optionally strip `v` prefix
+          strip_v: true
+      - name: Rename output file
+        run: mv "xp_pgrs_unofficial_guide.pdf" "xp_pgrs_unofficial_guide_${{steps.tag.outputs.tag}}.pdf"
+      - name: Release
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: xp_pgrs_unofficial_guide_${{steps.tag.outputs.tag}}.pdf
