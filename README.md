@@ -11,4 +11,4 @@ If you have gained some experience during your PhD, such as solving encountered 
 - Submit a PR. Create your own folder under the author-folder, create a new tex file in it, start writing with the section command on the first line, then find the chapter your guide belongs to in the chapters directory and insert it using the input command.
 
 
-For more detailed writing guidelines, please refer to the "Writing Guide" chapter in the PDF ([Download Link](https://github.com/xp-pgrs-unofficial-guide/xp_pgrs_unofficial_guide_EN/releases/latest)).
+For more detailed writing guidelines, please refer to the "Writing Guide" chapter in the PDF ([Download Link](https://github.com/xp-pgrs-unofficial-guide/xp_pgrs_unofficial_guide_EN/releases/latest)). 
