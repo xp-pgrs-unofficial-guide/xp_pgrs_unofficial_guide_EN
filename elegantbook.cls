@@ -427,7 +427,7 @@
   \newcommand{\authorname}{\citshape 编辑（按时间先后）：}
   
   % Author abbr.
-  \newcommand{\SZ}{\href{mailto:shiyao.zhang14@student.xjtlu.edu.cn}{张世尧}}
+  \newcommand{\SZ}{\href{mailto:shiyao.zhang14@student.xjtlu.edu.cn}{Shiyao Zhang}}
   \newcommand{\Shiyao}{\href{mailto:shiyao.zhang14@student.xjtlu.edu.cn}{Shiyao}}
   
   \newcommand{\KW}{\href{mailto:kaiwu.astro@gmail.com}{吴开}}
