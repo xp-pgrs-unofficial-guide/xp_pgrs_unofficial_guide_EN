@@ -9,13 +9,13 @@
 For full scholarship students, the mandatory 300 hours of TA work per academic year equates to approximately 7.5 hours of duty per week over 40 teaching weeks, roughly equivalent to one day per week. You might wonder if this is strictly enforced. In practice, enforcement varies significantly between colleges. Some colleges have established a digital system to track your hours, requiring you to meet the quota, while others are more lenient. For specific enforcement details, please consult senior students in your program.
 
 \begin{flushright}
-    (2022年10月21日 by \Wu)
+    2022年10月21日 by \Wu
 
-    (major update: December 30, 2022 by Yue Zhou: Updated TA hours according to the latest official handbook)
+    major update: December 30, 2022 by Yue Zhou: Updated TA hours according to the latest official handbook
 
-    (update: January 15, 2024 by \Wu : Updated TA hours according to the latest official handbook)
+    update: January 15, 2024 by \Wu : Updated TA hours according to the latest official handbook
 
-    (Translated by GPT)
+    GPT translation proofread by \Shiyao
 \end{flushright}
 
 \subsection{How to Become a TA}
@@ -29,8 +29,8 @@ Around the first week of each semester, the college will recruit TAs, usually th
 If you are eager to participate or want to secure a spot in a particular course or with a specific instructor, contact the administrator and the relevant course instructor as early as possible.
 
 \begin{flushright}
-    (December 30, 2022 by Yue Zhou) \\
-    (Translated by GPT)
+    December 30, 2022 by Yue Zhou \\
+    GPT translation proofread by \Shiyao
 \end{flushright}
 
 \subsection{Types of TA Work and How to Do Them}
@@ -65,7 +65,7 @@ If grading traditional paper-based assignments, generally ask the instructor how
         \end{figure}
     \end{minipage}
 
-    \item For large required courses with many sections, first select the group you are assigned to grade. Next, if you want to start grading online immediately, click “Grade.” If you want to review or grade offline (e.g., download to an iPad), click “View all submissions.”
+    \item For large compulsory courses with many groups, first select the group you are assigned to grade. Next, if you want to start grading online immediately, click “Grade.” If you want to review or grade offline (e.g., download to an iPad), click “View all submissions.”
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.5\columnwidth]{author-folder/Kai.Wu/LMO_inside_submission.jpg}
@@ -90,7 +90,7 @@ If grading traditional paper-based assignments, generally ask the instructor how
             \centering
             \includegraphics[width=0.8\columnwidth]{author-folder/Kai.Wu/LMO_upload_sheet.jpg}
         \end{figure}
-    \item From the same page, click “Upload multiple feedback files in a ZIP” to upload the graded assignments. Zip the graded files, but if the total size exceeds 100MB, you will need to manually split them into multiple ZIP files smaller than 100MB (annoying, but LMO restricts uploads to 100MB). If you know Python, you can use my script \href{https://github.com/kaiwu-astro/xp_pgrs_unofficial_guide/tree/main/fileshare/zip_in_100M.py}{GitHub repo} or \href{https://gitee.com/kaiwu-astro/xp_pgrs_unofficial_guide/tree/main/fileshare}{Gitee repo} to automatically split the files into 100MB ZIPs. After uploading, you are done.
+    \item From the same page, click “Upload multiple feedback files in a ZIP” to upload the graded assignments. Zip the graded files, but if the total size exceeds 100MB, you will need to manually split them into multiple ZIP files smaller than 100MB (annoying, but LMO restricts uploads to 100MB). If you know Python, you can use my script \href{https://github.com/xp-pgrs-unofficial-guide/xp_pgrs_unofficial_guide/blob/main/fileshare/zip_in_100M.py}{GitHub repo} or \href{https://gitee.com/kaiwu-astro/xp_pgrs_unofficial_guide/tree/main/fileshare}{Gitee repo} to automatically split the files into 100MB ZIPs. After uploading, you are done.
     \item Finally, email the instructor to report (1) common issues, such as frequently missed questions or common misunderstandings, (2) individual issues, such as students submitting the wrong files, suspected plagiarism, or similar assignments, and (3) any other issues you want to discuss with the instructor. The math department has a feedback form for this purpose. If there is no feedback form, you can email the instructor. (Generally, you don’t need to be too detailed unless you are passionate about this work, as it can be time-consuming.) 
         \begin{figure}[H]
             \centering
@@ -107,23 +107,22 @@ Tips for Grading Assignments
             \centering
             \includegraphics[width=0.5\columnwidth]{author-folder/Kai.Wu/marking_tools.jpg}
         \end{figure}
-    \item Improve efficiency with an assembly line approach: When there are many questions, don’t grade all parts of one student’s assignment before moving to the next. Instead, grade all assignments’ part 1 (e.g., the first three questions), then go back and grade all part 2 (e.g., questions 4-6).
-    \item Although opening and closing files takes time, this method helps you remember the answers and grading points, speeding up the process. Avoid looking at the answers for each assignment.
-Similarly, don’t record grades one by one. My habit is to write the total score in large numbers in the top left corner. After grading all assignments, use the largest thumbnail view (Mac: View as Icons, press Command+Equal repeatedly; Windows: View as Extra Large Icons) to see the scores without opening the files. Sort by name in both Excel and the folder to quickly record the grades.
+    \item Improve efficiency with an assembly line approach: When there are many questions, don’t grade all parts of one student’s assignment before moving to the next. Instead, grade all assignments’ part 1 (e.g., the first three questions), then go back and grade all part 2 (e.g., questions 4-6).  Although opening and closing files takes time, this method helps you remember the answers and grading points, speeding up the process. Avoid looking at the answers for each assignment.
+    \item Similarly, don’t record grades one by one. My habit is to write the total score in large numbers in the top left corner. After grading all assignments, use the largest thumbnail view (Mac: View as Icons, press Command+Equal repeatedly; Windows: View as Extra Large Icons) to see the scores without opening the files. Sort by name in both Excel and the folder to quickly record the grades.
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.7\columnwidth]{author-folder/Kai.Wu/tongchengji.jpg}
         \end{figure}
     \item Students may submit files with various issues, such as submitting Word or PPT instead of PDF, submitting PDFs with images in the wrong order or orientation, or writing on notebooks instead of using standard templates. TAs have the right to require students to follow specific formats and can warn students in the feedback comments. Remind the course instructor to emphasize this in class. If students continue to submit incorrect formats, you can deduct points according to your standards (e.g., first warning, second time deduct 20\%, third time deduct 50\%, fourth time deduct all).
-    \item Sometimes, large files or files with many handwritten notes cause PDFs to open slowly or crash. For large files, ask students to compress the PDFs. For handwritten notes, there is no good solution. I wrote a Python script \href{https://github.com/kaiwu-astro/xp_pgrs_unofficial_guide/tree/main/fileshare/pdf_to_png_to_pdf.py}{[GitHub Link]}to convert PDFs to images and back to PDFs, making them open faster and reducing file size to under 5MB. Use it if needed, but it’s a bit complicated. I couldn’t find a better method.
+    \item Sometimes, large files or files with many handwritten notes cause PDFs to open slowly or crash. For large files, ask students to compress the PDFs. For handwritten notes, there is no good solution. I wrote a Python script \href{https://github.com/xp-pgrs-unofficial-guide/xp_pgrs_unofficial_guide/blob/main/fileshare/pdf_to_png_to_pdf.py}{[GitHub Link]}to convert PDFs to images and back to PDFs, making them open faster and reducing file size to under 5MB. Use it if needed, but it’s a bit complicated. I couldn’t find a better method.
     \item (Quietly) When unsure about the score, give a bit more. If you give too little, students will argue, wasting time. Giving a bit more saves your time.
     \item When recording grades, mistakes are inevitable, especially for new TAs. Consider double-checking everything. Writing the grade on the top left of the PDF helps, as students can see discrepancies between LMO and PDF grades and contact you.
     \item After grading, students may message you through LMO or email. Avoid replying directly to students, as mistakes can cause issues for the instructor. Forward all student messages to the instructor and let them reply unless they allow you to respond directly.
 \end{enumerate}
 
 \begin{flushright}
-    (October 21, 2022 by \Wu) \\
-    (Translated by GPT)
+    October 21, 2022 by \Wu \\
+    GPT translation proofread by \Shiyao
 \end{flushright}
 
 \subsubsection{Grading Exams}
@@ -131,12 +130,12 @@ For quizzes, midterms, and final exams, TAs may need to participate in grading. 
 
 \subsubsection{Conducting Labs}
 \begin{minipage}[t]{0.55\textwidth}
-    For courses like university physics labs, TAs may need to conduct lab sessions. The typical process involves explaining the experiment principles, data recording and processing, and precautions on the lab whiteboard, followed by a hands-on demonstration. After the class, TAs need to grade lab reports.
+    For courses like physics, TAs may need to conduct lab sessions. The typical process involves explaining the experiment principles, data recording and processing, and precautions on the lab whiteboard, followed by a hands-on demonstration. After the class, TAs need to grade lab reports.
 
     I find lab sessions very challenging because they involve real teaching in a university setting. You need to prepare lessons, organize your thoughts, and anticipate students' questions. The course instructor will train TAs in the lab, and you must understand the experiments thoroughly. Handling emergencies, such as students damaging equipment, requires immediate consultation with the instructor. Although lab sessions are few and the total work hours, including grading lab reports, are less than grading assignments for most other courses, they are very rewarding. If you want to challenge yourself, give it a try. If not, request a transfer to another course with the instructor and the school administrator early on.
     \begin{flushright}
-        (October 22, 2022 by \Wu) \\
-        (Translated by GPT)
+        October 22, 2022 by \Wu \\
+        GPT translation proofread by \Shiyao
     \end{flushright}
 \end{minipage}
 %
@@ -157,16 +156,16 @@ For quizzes, midterms, and final exams, TAs may need to participate in grading. 
 \end{enumerate}
 
 \begin{flushright}
-    (October 30, 2022 by Yue Zhou) \\
-    (Translated by GPT)
+    October 30, 2022 by Yue Zhou \\
+    GPT translation proofread by \Shiyao
 \end{flushright}
 
 \subsection{TA Salary and Payment}
-In 2022, the TA salary is 60 yuan per hour, paid monthly, with the salary for January work paid at the end of February.
+In 2022, the TA salary is 60 yuan per hour, paid monthly.  For example, the salary for January work paid at the end of February.
 
 \emptyline{}
 Additionally, proctoring midterm and final exams is also considered TA work and will count towards scholarship students’ TA hours. Self-funded students are usually paid a higher hourly rate for proctoring. See the next section for more details on proctoring.
 
 \begin{flushright}
-    Translated by GPT
+    GPT translation proofread by \Shiyao
 \end{flushright}
